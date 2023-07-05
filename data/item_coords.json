@@ -1,0 +1,205 @@
+{
+   "Glassblower's Bauble": {
+      "name": "rect",
+      "x": 472,
+      "y": 177,
+      "width": 45,
+      "height": 47
+   },
+   "Gemcutter's Prism": {
+      "name": "rect",
+      "x": 528,
+      "y": 176,
+      "width": 50,
+      "height": 48
+   },
+   "Orb of Transmutation": {
+      "name": "rect",
+      "x": 31,
+      "y": 247,
+      "width": 52,
+      "height": 47
+   },
+   "Orb of Alteration": {
+      "name": "rect",
+      "x": 90,
+      "y": 245,
+      "width": 49,
+      "height": 49
+   },
+   "Orb of Annulment": {
+      "name": "rect",
+      "x": 148,
+      "y": 245,
+      "width": 49,
+      "height": 50
+   },
+   "Orb of Chance": {
+      "name": "rect",
+      "x": 204,
+      "y": 246,
+      "width": 50,
+      "height": 47
+   },
+   "Exalted Orb": {
+      "name": "rect",
+      "x": 281,
+      "y": 246,
+      "width": 48,
+      "height": 48
+   },
+   "Mirrors of Kalandra": {
+      "name": "rect",
+      "x": 338,
+      "y": 245,
+      "width": 48,
+      "height": 48
+   },
+   "Mirror Shard": {
+      "name": "rect",
+      "x": 339,
+      "y": 303,
+      "width": 48,
+      "height": 46
+   },
+   "Regal Orb": {
+      "name": "rect",
+      "x": 416,
+      "y": 248,
+      "width": 47,
+      "height": 45
+   },
+   "Orb of Alchemy": {
+      "name": "rect",
+      "x": 471,
+      "y": 246,
+      "width": 51,
+      "height": 46
+   },
+   "Chaos Orb": {
+      "name": "rect",
+      "x": 529,
+      "y": 248,
+      "width": 48,
+      "height": 44
+   },
+   "Veiled Chaos Orb": {
+      "name": "rect",
+      "x": 584,
+      "y": 247,
+      "width": 49,
+      "height": 44
+   },
+   "Orb of Augmentation": {
+      "name": "rect",
+      "x": 206,
+      "y": 303,
+      "width": 48,
+      "height": 43
+   },
+   "Divine Orb": {
+      "name": "rect",
+      "x": 586,
+      "y": 303,
+      "width": 47,
+      "height": 48
+   },
+   "Jeweller's Orb": {
+      "name": "rect",
+      "x": 91,
+      "y": 371,
+      "width": 48,
+      "height": 48
+   },
+   "Orb of Fusing": {
+      "name": "rect",
+      "x": 147,
+      "y": 370,
+      "width": 50,
+      "height": 48
+   },
+   "Chromatic Orb": {
+      "name": "rect",
+      "x": 205,
+      "y": 371,
+      "width": 48,
+      "height": 46
+   },
+   "Awakened Sextant": {
+      "name": "rect",
+      "x": 414,
+      "y": 371,
+      "width": 52,
+      "height": 48
+   },
+   "Orb of Horizons": {
+      "name": "rect",
+      "x": 588,
+      "y": 372,
+      "width": 48,
+      "height": 48
+   },
+   "Elevated Sextant": {
+      "name": "rect",
+      "x": 471,
+      "y": 371,
+      "width": 50,
+      "height": 48
+   },
+   "Orb of Regret": {
+      "name": "rect",
+      "x": 414,
+      "y": 429,
+      "width": 48,
+      "height": 45
+   },
+   "Orb of Unmaking": {
+      "name": "rect",
+      "x": 473,
+      "y": 428,
+      "width": 47,
+      "height": 48
+   },
+   "Orb of Scouring": {
+      "name": "rect",
+      "x": 415,
+      "y": 486,
+      "width": 49,
+      "height": 46
+   },
+   "Blessed Orb": {
+      "name": "rect",
+      "x": 529,
+      "y": 487,
+      "width": 50,
+      "height": 42
+   },
+   "Vaal Orb": {
+      "name": "rect",
+      "x": 586,
+      "y": 485,
+      "width": 45,
+      "height": 44
+   },
+   "Fracturing Orb": {
+      "name": "rect",
+      "x": 33,
+      "y": 429,
+      "width": 48,
+      "height": 48
+   },
+   "Fracturing Shard": {
+      "name": "rect",
+      "x": 35,
+      "y": 485,
+      "width": 48,
+      "height": 47
+   },
+   "Ancient Orb": {
+      "name": "rect",
+      "x": 92,
+      "y": 429,
+      "width": 48,
+      "height": 47
+   }
+}
