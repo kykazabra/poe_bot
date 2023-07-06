@@ -136,7 +136,7 @@ class BotPOE(object):
     def join_check(self):
         count = 0
         while count != self.traders[self.trade_sender]['count']:
-            count = re.findall(f'{self.trade_sender} has joined the area', self.text)
+            count = len(re.findall(f'{self.trade_sender} has joined the area', self.text))
 
             time.sleep(self.refresh_time)
             self.read_logs()
