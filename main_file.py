@@ -118,7 +118,7 @@ class BotPOE(object):
                 self.traders[trader]['count'] += 1
 
         for key, value in self.traders.items():
-            if value['status'] == 'Open' and len(self.active_traders) < self.traders_in_lobby:
+            if value['status'] == 'Open' and len(self.active_traders) < self.traders_in_lobby and key not in self.active_traders:
                 self.active_traders.append(key)
                 self.logger(f'Trader {key} added to active list')
                 self.send_invite(key)
