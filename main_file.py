@@ -14,7 +14,7 @@ class BotPOE(object):
         self.logs = r'logs.txt'
         self.text_delay = 0.01
         self.action_delay = 0.02
-        self.refresh_time = 0.5
+        self.refresh_time = 1
         self.traders_in_lobby = 5
         self.increment_mode = False
 
@@ -51,6 +51,8 @@ class BotPOE(object):
         self.stash_coords = {'x': 1000, 'y': 400}
 
         self.accept_coords = {'x': 350, 'y': 840}
+
+        self.logger('Data loaded!')
 
     def calc_increment(self):
         if self.increment_mode:
@@ -102,7 +104,7 @@ class BotPOE(object):
         with open(self.log_path, 'r', encoding="utf8") as f:
             text = f.read()
         self.text = text[self.beg:]
-        self.logger('Refreshing logs')
+        #self.logger('Refreshing logs')
 
     def add_traders(self):
         all_traders = re.findall(r"@From (.+): Hi, (?:I would|I'd) like to buy your ?\d* " \
@@ -139,6 +141,7 @@ class BotPOE(object):
             time.sleep(self.refresh_time)
             self.read_logs()
             self.add_traders()
+            self.logger(f'Waiting for {self.trade_sender} to join...')
         self.logger(f'{self.trade_sender} has joined the area')
 
     def send_invite(self, name):
