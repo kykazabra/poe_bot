@@ -9,6 +9,7 @@ import pyautogui as pag
 
 class BotPOE(object):
     def __init__(self):
+        # Поменять путь к логам!
         self.log_path = r'Client (3).txt'
         self.data_path = r'data'
         self.logs = r'logs.txt'
@@ -16,6 +17,7 @@ class BotPOE(object):
         self.action_delay = 0.02
         self.refresh_time = 1
         self.traders_in_lobby = 5
+        # Включить инкремент мод
         self.increment_mode = False
 
         self.beg = 0
@@ -203,7 +205,7 @@ class BotPOE(object):
 
     def trade_offer_to_inventory(self):
         for key, value in self.trade_offer.items():
-            time.sleep(self.action_delay / 20)
+            time.sleep(self.action_delay / 40)
             pag.moveTo(key[0] + 25, key[1] + 25)
 
     def push_accept(self):
@@ -217,7 +219,7 @@ class BotPOE(object):
     def inventory_to_stash(self):
         keyboard.press('ctrl')
         for key, value in self.inventory.items():
-            time.sleep(self.action_delay / 20)
+            time.sleep(self.action_delay / 40)
             pag.moveTo(key[0] + 25, key[1] + 25)
             pag.click()
 
