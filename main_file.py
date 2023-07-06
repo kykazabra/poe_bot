@@ -59,7 +59,10 @@ class BotPOE(object):
             self.beg = len(text)
 
     def clear_logfile(self):
-        os.remove(self.logs)
+        try:
+            os.remove(self.logs)
+        except:
+            pass
 
     def logger(self, text):
         with open(self.logs, 'a', encoding="utf8") as f:
