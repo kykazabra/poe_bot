@@ -223,6 +223,8 @@ class BotPOE(object):
         self.logger(f'Trader {self.trade_sender} removed from active list (trade finished successfully)')
 
     def body(self):
+        time.sleep(5)
+
         while True:
             self.read_logs()
             self.add_traders()
