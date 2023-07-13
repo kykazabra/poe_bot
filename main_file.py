@@ -118,7 +118,7 @@ class BotPOE(object):
 
         items = list(items[-1])
 
-        if not items.isdigit():
+        if not items[0].isdigit():
             items[0] = 1
 
         if not items[2].isdigit():
