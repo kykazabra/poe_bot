@@ -19,6 +19,7 @@ class BotPOE(object):
         self.traders_in_lobby = 5
         # Включить инкремент мод
         self.increment_mode = False
+        self.enable_price_check = True
 
         self.beg = 0
         self.trade_sender = ''
@@ -49,6 +50,9 @@ class BotPOE(object):
             self.trade_offer = {}
             for dct in trade_offer_coords:
                 self.trade_offer[(dct['x'], dct['y'])] = False
+
+        with open(self.data_path + r'\items_prices.json') as f:
+            self.items_prices = json.load(f)
 
         self.stash_coords = {'x': 1000, 'y': 400}
 
@@ -106,7 +110,34 @@ class BotPOE(object):
         with open(self.log_path, 'r', encoding="utf8") as f:
             text = f.read()
         self.text = text[self.beg:]
-        #self.logger('Refreshing logs')
+        # self.logger('Refreshing logs')
+
+    def check_offer(self, trader):
+        items = re.findall(f"@From {trader}: Hi, (?:I would|I'd) like to buy your ?(\d*) " \
+                           "(.+) (?:listed for|for my) (\d*) (.+) in", self.text)
+
+        items = list(items[-1])
+
+        if not items.isdigit():
+            items[0] = 1
+
+        if not items[2].isdigit():
+            items[2] = 1
+
+        items[0], items[2] = int(items[0]), int(items[2])
+
+        items = {'you_amount': items[0], 'you_item': items[1], 'him_amount': items[2], 'him_item': items[3]}
+
+        our_value = self.items_prices[items['you_item']]['price_buy']
+        our_total_price = our_value * items['you_amount']
+
+        him_value = self.items_prices[items['him_item']]['price_buy']
+        him_total_price = him_value * items['him_amount']
+
+        if our_total_price <= him_total_price:
+            return True
+        else:
+            return False
 
     def add_traders(self):
         all_traders = re.findall(r"@From (.+): Hi, (?:I would|I'd) like to buy your ?\d* " \
@@ -122,10 +153,21 @@ class BotPOE(object):
                 self.traders[trader]['count'] += 1
 
         for key, value in self.traders.items():
-            if value['status'] == 'Open' and len(self.active_traders) < self.traders_in_lobby and key not in self.active_traders:
+            if value['status'] == 'Open' and len(self.active_traders) < self.traders_in_lobby and \
+                    key not in self.active_traders:
                 self.active_traders.append(key)
                 self.logger(f'Trader {key} added to active list')
-                self.send_invite(key)
+
+                if self.enable_price_check:
+                    if self.check_offer(key):
+                        self.send_invite(key)
+
+                    else:
+                        self.active_traders.remove(key)
+                        self.logger(f'Trader {key} removed from active list (bad offer)')
+                        self.traders[key]['status'] = 'Closed'
+                else:
+                    self.send_invite(key)
 
     def remove_traders(self):
         for trader in self.active_traders:
