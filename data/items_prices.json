@@ -1,532 +1,426 @@
-[
-    {
-        "item_name": "Mirror of Kalandra",
-        "price_buy": 107226.0,
-        "price_sell": 106276.97
+{
+    "Mirror of Kalandra": {
+        "price_buy": 107214.9,
+        "price_sell": 106278.5
     },
-    {
-        "item_name": "Mirror Shard",
+    "Mirror Shard": {
         "price_buy": 5365.0,
-        "price_sell": 5318.73
+        "price_sell": 5319.62
     },
-    {
-        "item_name": "Fracturing Orb",
+    "Fracturing Orb": {
         "price_buy": 1757.5,
-        "price_sell": 1700.38
+        "price_sell": 1699.43
     },
-    {
-        "item_name": "Tempering Orb",
+    "Tempering Orb": {
         "price_buy": 1461.5,
-        "price_sell": 1431.76
+        "price_sell": 1430.77
     },
-    {
-        "item_name": "Tainted Divine Teardrop",
-        "price_buy": 444.0,
-        "price_sell": 444.0
+    "Tainted Divine Teardrop": {
+        "price_buy": 436.6,
+        "price_sell": 436.6
     },
-    {
-        "item_name": "Blessing of Chayula",
+    "Blessing of Chayula": {
         "price_buy": 351.5,
         "price_sell": 351.5
     },
-    {
-        "item_name": "Tailoring Orb",
+    "Tailoring Orb": {
         "price_buy": 296.0,
         "price_sell": 296.0
     },
-    {
-        "item_name": "Sacred Crystallised Lifeforce",
-        "price_buy": 240.5,
-        "price_sell": 238.82
+    "Sacred Crystallised Lifeforce": {
+        "price_buy": 240.0,
+        "price_sell": 238.35
     },
-    {
-        "item_name": "Orb of Dominance",
+    "Orb of Dominance": {
         "price_buy": 222.0,
         "price_sell": 222.0
     },
-    {
-        "item_name": "Secondary Regrading Lens",
-        "price_buy": 199.4,
-        "price_sell": 199.4
+    "Secondary Regrading Lens": {
+        "price_buy": 193.6,
+        "price_sell": 193.6
     },
-    {
-        "item_name": "Divine Orb",
+    "Divine Orb": {
         "price_buy": 185.0,
         "price_sell": 184.92
     },
-    {
-        "item_name": "Blessing of Tul",
-        "price_buy": 155.0,
-        "price_sell": 155.0
+    "Blessing of Tul": {
+        "price_buy": 152.0,
+        "price_sell": 152.0
     },
-    {
-        "item_name": "Hunter's Exalted Orb",
+    "Hunter's Exalted Orb": {
         "price_buy": 149.0,
         "price_sell": 149.0
     },
-    {
-        "item_name": "Blessing of Uul-Netol",
-        "price_buy": 130.0,
-        "price_sell": 130.0
+    "Blessing of Uul-Netol": {
+        "price_buy": 129.2,
+        "price_sell": 129.2
     },
-    {
-        "item_name": "Blessing of Esh",
+    "Blessing of Esh": {
         "price_buy": 120.0,
         "price_sell": 120.0
     },
-    {
-        "item_name": "Blessing of Xoph",
-        "price_buy": 118.0,
-        "price_sell": 118.0
+    "Blessing of Xoph": {
+        "price_buy": 115.6,
+        "price_sell": 115.6
     },
-    {
-        "item_name": "Prime Regrading Lens",
-        "price_buy": 80.0,
-        "price_sell": 80.97
+    "Prime Regrading Lens": {
+        "price_buy": 81.2,
+        "price_sell": 82.02
     },
-    {
-        "item_name": "Sacred Orb",
+    "Sacred Orb": {
         "price_buy": 80.0,
         "price_sell": 79.12
     },
-    {
-        "item_name": "Fracturing Shard",
+    "Fracturing Shard": {
         "price_buy": 78.0,
         "price_sell": 77.72
     },
-    {
-        "item_name": "Otherworldly Scouting Report",
+    "Otherworldly Scouting Report": {
         "price_buy": 75.0,
         "price_sell": 75.0
     },
-    {
-        "item_name": "Orb of Conflict",
+    "Orb of Conflict": {
         "price_buy": 60.0,
         "price_sell": 59.34
     },
-    {
-        "item_name": "Awakener's Orb",
+    "Awakener's Orb": {
         "price_buy": 55.0,
         "price_sell": 55.0
     },
-    {
-        "item_name": "Elevated Sextant",
+    "Elevated Sextant": {
         "price_buy": 50.0,
         "price_sell": 50.0
     },
-    {
-        "item_name": "Tainted Blessing",
+    "Tainted Blessing": {
         "price_buy": 40.0,
         "price_sell": 40.0
     },
-    {
-        "item_name": "Exceptional Eldritch Ichor",
+    "Exceptional Eldritch Ichor": {
         "price_buy": 40.0,
-        "price_sell": 39.23
+        "price_sell": 39.57
     },
-    {
-        "item_name": "Crusader's Exalted Orb",
+    "Crusader's Exalted Orb": {
         "price_buy": 37.0,
         "price_sell": 37.0
     },
-    {
-        "item_name": "Redeemer's Exalted Orb",
+    "Redeemer's Exalted Orb": {
         "price_buy": 37.0,
         "price_sell": 37.0
     },
-    {
-        "item_name": "Exceptional Eldritch Ember",
+    "Exceptional Eldritch Ember": {
         "price_buy": 35.0,
         "price_sell": 34.97
     },
-    {
-        "item_name": "Warlord's Exalted Orb",
+    "Warlord's Exalted Orb": {
         "price_buy": 34.0,
         "price_sell": 34.0
     },
-    {
-        "item_name": "Tainted Exalted Orb",
+    "Tainted Exalted Orb": {
         "price_buy": 34.0,
         "price_sell": 34.0
     },
-    {
-        "item_name": "Eldritch Orb of Annulment",
+    "Eldritch Orb of Annulment": {
         "price_buy": 30.83395,
         "price_sell": 30.82
     },
-    {
-        "item_name": "Eldritch Chaos Orb",
+    "Eldritch Chaos Orb": {
         "price_buy": 30.09292,
         "price_sell": 30.09
     },
-    {
-        "item_name": "Tainted Orb of Fusing",
+    "Tainted Orb of Fusing": {
         "price_buy": 20.0,
         "price_sell": 19.97
     },
-    {
-        "item_name": "Exalted Orb",
-        "price_buy": 20.0,
-        "price_sell": 19.49
+    "Exalted Orb": {
+        "price_buy": 19.96418,
+        "price_sell": 19.46
     },
-    {
-        "item_name": "Comprehensive Scouting Report",
+    "Comprehensive Scouting Report": {
         "price_buy": 15.0,
         "price_sell": 15.0
     },
-    {
-        "item_name": "Tainted Mythic Orb",
+    "Charged Compass": {
+        "price_buy": 12.8,
+        "price_sell": 12.8
+    },
+    "Tainted Mythic Orb": {
         "price_buy": 12.0,
         "price_sell": 12.0
     },
-    {
-        "item_name": "Charged Compass",
-        "price_buy": 12.0,
-        "price_sell": 12.0
-    },
-    {
-        "item_name": "Eldritch Exalted Orb",
+    "Eldritch Exalted Orb": {
         "price_buy": 10.0,
         "price_sell": 10.0
     },
-    {
-        "item_name": "Prismatic Catalyst",
+    "Prismatic Catalyst": {
         "price_buy": 9.0,
         "price_sell": 9.0
     },
-    {
-        "item_name": "Oil Extractor",
+    "Oil Extractor": {
         "price_buy": 9.0,
         "price_sell": 9.0
     },
-    {
-        "item_name": "Veiled Chaos Orb",
+    "Veiled Chaos Orb": {
         "price_buy": 9.0,
         "price_sell": 8.86
     },
-    {
-        "item_name": "Unstable Catalyst",
+    "Unstable Catalyst": {
         "price_buy": 8.0,
         "price_sell": 8.0
     },
-    {
-        "item_name": "Ancient Orb",
+    "Ancient Orb": {
         "price_buy": 7.70895,
         "price_sell": 7.61
     },
-    {
-        "item_name": "Orb of Annulment",
+    "Orb of Annulment": {
         "price_buy": 7.0,
         "price_sell": 7.0
     },
-    {
-        "item_name": "Ritual Vessel",
-        "price_buy": 6.0,
-        "price_sell": 6.0
-    },
-    {
-        "item_name": "Tainted Chaos Orb",
+    "Ritual Vessel": {
         "price_buy": 5.0,
         "price_sell": 5.0
     },
-    {
-        "item_name": "Blighted Scouting Report",
+    "Tainted Chaos Orb": {
         "price_buy": 5.0,
         "price_sell": 5.0
     },
-    {
-        "item_name": "Grand Eldritch Ember",
-        "price_buy": 4.89384,
-        "price_sell": 4.81
+    "Blighted Scouting Report": {
+        "price_buy": 5.0,
+        "price_sell": 5.0
     },
-    {
-        "item_name": "Awakened Sextant",
-        "price_buy": 4.618518,
-        "price_sell": 4.57
+    "Grand Eldritch Ember": {
+        "price_buy": 4.85536,
+        "price_sell": 4.77
     },
-    {
-        "item_name": "Fertile Catalyst",
+    "Awakened Sextant": {
+        "price_buy": 4.625,
+        "price_sell": 4.56
+    },
+    "Fertile Catalyst": {
         "price_buy": 4.0,
         "price_sell": 4.0
     },
-    {
-        "item_name": "Tainted Chromatic Orb",
+    "Tainted Chromatic Orb": {
         "price_buy": 4.0,
         "price_sell": 4.0
     },
-    {
-        "item_name": "Influenced Scouting Report",
+    "Influenced Scouting Report": {
         "price_buy": 4.0,
         "price_sell": 4.0
     },
-    {
-        "item_name": "Grand Eldritch Ichor",
+    "Grand Eldritch Ichor": {
         "price_buy": 4.0219,
         "price_sell": 3.99
     },
-    {
-        "item_name": "Operative's Scouting Report",
+    "Operative's Scouting Report": {
         "price_buy": 3.0,
         "price_sell": 3.0
     },
-    {
-        "item_name": "Stacked Deck",
+    "Stacked Deck": {
         "price_buy": 2.22925,
         "price_sell": 2.23
     },
-    {
-        "item_name": "Accelerating Catalyst",
+    "Accelerating Catalyst": {
         "price_buy": 2.0,
         "price_sell": 2.0
     },
-    {
-        "item_name": "Surveyor's Compass",
+    "Surveyor's Compass": {
         "price_buy": 2.0,
         "price_sell": 2.0
     },
-    {
-        "item_name": "Singular Scouting Report",
+    "Singular Scouting Report": {
         "price_buy": 2.0,
         "price_sell": 2.0
     },
-    {
-        "item_name": "Delirious Scouting Report",
+    "Delirious Scouting Report": {
         "price_buy": 2.0,
         "price_sell": 2.0
     },
-    {
-        "item_name": "Harbinger's Orb",
+    "Harbinger's Orb": {
         "price_buy": 1.0,
         "price_sell": 1.0
     },
-    {
-        "item_name": "Exalted Shard",
+    "Exalted Shard": {
         "price_buy": 1.0,
         "price_sell": 1.0
     },
-    {
-        "item_name": "Tainted Jeweller's Orb",
+    "Tainted Jeweller's Orb": {
         "price_buy": 1.0,
         "price_sell": 1.0
     },
-    {
-        "item_name": "Annulment Shard",
+    "Annulment Shard": {
         "price_buy": 0.97647,
         "price_sell": 0.98
     },
-    {
-        "item_name": "Tainted Armourer's Scrap",
+    "Tainted Armourer's Scrap": {
         "price_buy": 0.90909,
         "price_sell": 0.91
     },
-    {
-        "item_name": "Greater Eldritch Ember",
+    "Greater Eldritch Ember": {
         "price_buy": 0.90909,
         "price_sell": 0.91
     },
-    {
-        "item_name": "Greater Eldritch Ichor",
+    "Greater Eldritch Ichor": {
         "price_buy": 0.90909,
         "price_sell": 0.91
     },
-    {
-        "item_name": "Orb of Unmaking",
+    "Orb of Unmaking": {
         "price_buy": 0.9,
         "price_sell": 0.9
     },
-    {
-        "item_name": "Orb of Scouring",
+    "Orb of Scouring": {
         "price_buy": 0.8806,
         "price_sell": 0.86
     },
-    {
-        "item_name": "Enkindling Orb",
+    "Enkindling Orb": {
         "price_buy": 0.7,
         "price_sell": 0.7
     },
-    {
-        "item_name": "Gemcutter's Prism",
+    "Gemcutter's Prism": {
         "price_buy": 0.61136,
         "price_sell": 0.61
     },
-    {
-        "item_name": "Vaal Orb",
+    "Vaal Orb": {
         "price_buy": 0.61136,
         "price_sell": 0.6
     },
-    {
-        "item_name": "Tempering Catalyst",
+    "Explorer's Scouting Report": {
+        "price_buy": 0.507066,
+        "price_sell": 0.51
+    },
+    "Tempering Catalyst": {
         "price_buy": 0.5,
         "price_sell": 0.5
     },
-    {
-        "item_name": "Intrinsic Catalyst",
+    "Intrinsic Catalyst": {
         "price_buy": 0.5,
         "price_sell": 0.5
     },
-    {
-        "item_name": "Noxious Catalyst",
+    "Noxious Catalyst": {
         "price_buy": 0.5,
         "price_sell": 0.5
     },
-    {
-        "item_name": "Vaal Scouting Report",
+    "Vaal Scouting Report": {
         "price_buy": 0.5,
         "price_sell": 0.5
     },
-    {
-        "item_name": "Explorer's Scouting Report",
-        "price_buy": 0.504392,
-        "price_sell": 0.5
-    },
-    {
-        "item_name": "Regal Orb",
+    "Regal Orb": {
         "price_buy": 0.4514,
         "price_sell": 0.45
     },
-    {
-        "item_name": "Orb of Regret",
+    "Orb of Regret": {
         "price_buy": 0.45,
         "price_sell": 0.44
     },
-    {
-        "item_name": "Blessed Orb",
+    "Blessed Orb": {
         "price_buy": 0.33333,
         "price_sell": 0.33
     },
-    {
-        "item_name": "Turbulent Catalyst",
+    "Turbulent Catalyst": {
         "price_buy": 0.33333,
         "price_sell": 0.33
     },
-    {
-        "item_name": "Orb of Horizons",
+    "Orb of Horizons": {
         "price_buy": 0.25,
         "price_sell": 0.25
     },
-    {
-        "item_name": "Lesser Eldritch Ichor",
+    "Lesser Eldritch Ichor": {
         "price_buy": 0.25,
         "price_sell": 0.25
     },
-    {
-        "item_name": "Orb of Fusing",
+    "Orb of Fusing": {
         "price_buy": 0.24605,
         "price_sell": 0.24
     },
-    {
-        "item_name": "Glassblower's Bauble",
+    "Glassblower's Bauble": {
         "price_buy": 0.221776,
         "price_sell": 0.22
     },
-    {
-        "item_name": "Instilling Orb",
+    "Instilling Orb": {
         "price_buy": 0.22222,
         "price_sell": 0.22
     },
-    {
-        "item_name": "Cartographer's Chisel",
+    "Cartographer's Chisel": {
         "price_buy": 0.2,
         "price_sell": 0.2
     },
-    {
-        "item_name": "Abrasive Catalyst",
+    "Abrasive Catalyst": {
         "price_buy": 0.204456,
         "price_sell": 0.2
     },
-    {
-        "item_name": "Tainted Blacksmith's Whetstone",
+    "Tainted Blacksmith's Whetstone": {
         "price_buy": 0.2,
         "price_sell": 0.2
     },
-    {
-        "item_name": "Orb of Chance",
-        "price_buy": 0.191626,
+    "Orb of Chance": {
+        "price_buy": 0.19332,
         "price_sell": 0.19
     },
-    {
-        "item_name": "Engineer's Orb",
+    "Engineer's Orb": {
         "price_buy": 0.16667,
         "price_sell": 0.17
     },
-    {
-        "item_name": "Imbued Catalyst",
+    "Imbued Catalyst": {
         "price_buy": 0.16667,
         "price_sell": 0.17
     },
-    {
-        "item_name": "Lesser Eldritch Ember",
+    "Lesser Eldritch Ember": {
         "price_buy": 0.16667,
         "price_sell": 0.17
     },
-    {
-        "item_name": "Chromatic Orb",
-        "price_buy": 0.141738,
-        "price_sell": 0.14
+    "Chromatic Orb": {
+        "price_buy": 0.134778,
+        "price_sell": 0.13
     },
-    {
-        "item_name": "Orb of Alteration",
+    "Orb of Alteration": {
         "price_buy": 0.06667,
         "price_sell": 0.07
     },
-    {
-        "item_name": "Jeweller's Orb",
-        "price_buy": 0.064274,
+    "Jeweller's Orb": {
+        "price_buy": 0.0625,
         "price_sell": 0.06
     },
-    {
-        "item_name": "Vivid Crystallised Lifeforce",
-        "price_buy": 0.04625,
+    "Vivid Crystallised Lifeforce": {
+        "price_buy": 0.04762,
         "price_sell": 0.05
     },
-    {
-        "item_name": "Orb of Alchemy",
+    "Orb of Alchemy": {
         "price_buy": 0.04,
         "price_sell": 0.04
     },
-    {
-        "item_name": "Orb of Augmentation",
-        "price_buy": 0.04345,
+    "Orb of Augmentation": {
+        "price_buy": 0.04348,
         "price_sell": 0.04
     },
-    {
-        "item_name": "Portal Scroll",
+    "Portal Scroll": {
         "price_buy": 0.02778,
         "price_sell": 0.03
     },
-    {
-        "item_name": "Blacksmith's Whetstone",
+    "Blacksmith's Whetstone": {
         "price_buy": 0.02273,
         "price_sell": 0.02
     },
-    {
-        "item_name": "Orb of Binding",
+    "Orb of Binding": {
         "price_buy": 0.02222,
         "price_sell": 0.02
     },
-    {
-        "item_name": "Wild Crystallised Lifeforce",
+    "Wild Crystallised Lifeforce": {
         "price_buy": 0.01786,
         "price_sell": 0.02
     },
-    {
-        "item_name": "Primal Crystallised Lifeforce",
-        "price_buy": 0.016694,
+    "Primal Crystallised Lifeforce": {
+        "price_buy": 0.01754,
         "price_sell": 0.02
     },
-    {
-        "item_name": "Orb of Transmutation",
+    "Orb of Transmutation": {
         "price_buy": 0.01,
         "price_sell": 0.01
     },
-    {
-        "item_name": "Scroll of Wisdom",
+    "Scroll of Wisdom": {
         "price_buy": 0.00833,
         "price_sell": 0.01
     },
-    {
-        "item_name": "Armourer's Scrap",
+    "Armourer's Scrap": {
         "price_buy": 0.00952,
         "price_sell": 0.01
     }
-]
+}
