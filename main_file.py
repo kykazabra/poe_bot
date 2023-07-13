@@ -175,6 +175,8 @@ class BotPOE(object):
                 self.active_traders.remove(trader)
                 self.traders[self.trade_sender]['status'] = 'Closed'
                 self.logger(f'Trader {self.trade_sender} removed from active list (user left the area)')
+                self.chat_print(f'/kick {self.trade_sender}')
+                self.logger(f'{self.trade_sender} kicked from lobby')
 
     def join_check(self):
         count = 0
@@ -270,6 +272,8 @@ class BotPOE(object):
         self.active_traders.remove(self.trade_sender)
         self.traders[self.trade_sender]['status'] = 'Closed'
         self.logger(f'Trader {self.trade_sender} removed from active list (trade finished successfully)')
+        self.chat_print(f'/kick {self.trade_sender}')
+        self.logger(f'{self.trade_sender} kicked from lobby')
 
     def body(self):
         time.sleep(5)
