@@ -131,8 +131,7 @@ class BotPOE(object):
         our_value = self.items_prices[items['you_item']]['price_buy']
         our_total_price = our_value * items['you_amount']
 
-        him_value = self.items_prices[items['him_item']]['price_buy']
-        him_total_price = him_value * items['him_amount']
+        him_total_price = items['him_amount']
 
         if our_total_price <= him_total_price:
             return True
