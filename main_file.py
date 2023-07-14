@@ -278,7 +278,7 @@ class BotPOE(object):
     def inventory_to_stash(self):
         keyboard.press('ctrl')
         for key, value in self.inventory.items():
-            time.sleep(self.action_delay / 40)
+            time.sleep(self.action_delay / 80)
             pag.moveTo(key[0] + 25, key[1] + 25)
             pag.click()
 
