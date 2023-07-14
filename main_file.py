@@ -54,6 +54,9 @@ class BotPOE(object):
         with open(self.data_path + r'\items_prices.json') as f:
             self.items_prices = json.load(f)
 
+        with open(self.data_path + r'\accept_photo.pickle', 'rb') as f:
+            self.accept_button_image = pickle.load(f)
+
         self.stash_coords = {'x': 1000, 'y': 400}
 
         self.accept_coords = {'x': 350, 'y': 840}
@@ -189,6 +192,19 @@ class BotPOE(object):
             self.logger(f'Waiting for {self.trade_sender} to join...')
         self.logger(f'{self.trade_sender} has joined the area')
 
+    def trade_accept_check(self):
+        while True:
+            screenshot = pag.screenshot(region=(304, 821, 148, 32))
+
+            if screenshot == self.accept_button_image:
+                self.logger(f'{self.trade_sender} has accepted trade offer')
+                break
+
+            time.sleep(self.refresh_time)
+            self.read_logs()
+            self.add_traders()
+            self.logger(f'Waiting for {self.trade_sender} to accept trade...')
+
     def send_invite(self, name):
         self.chat_print(f'/invite {name}')
         self.logger(f'{name} invited')
@@ -294,7 +310,7 @@ class BotPOE(object):
 
                 self.send_trade()
 
-                time.sleep(5)
+                self.trade_accept_check()
 
                 self.inventory_to_trade()
 
